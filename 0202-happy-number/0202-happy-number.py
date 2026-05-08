@@ -9,5 +9,5 @@ class Solution:
                 total += digit*digit
                 n = n//10
             n = total
-        return n==1
+        return n == 1
         
