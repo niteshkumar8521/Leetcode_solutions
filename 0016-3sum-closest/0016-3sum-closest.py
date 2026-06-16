@@ -11,9 +11,9 @@ class Solution:
                 if abs(current_sum-target)< abs(closest_sum-target):
                     closest_sum = current_sum
                 if  current_sum<target:
-                        left += 1
+                    left += 1
                 elif current_sum >target:
-                            right -= 1
+                    right -= 1
                 else:
                     return current_sum
         return closest_sum
